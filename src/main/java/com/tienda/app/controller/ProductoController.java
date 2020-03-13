@@ -16,6 +16,7 @@ public class ProductoController {
 
 	@GetMapping("/productos")
 	public List<Producto> listar() {
+		//ajustes
 		return productoService.listarProductos();
 	}
 
